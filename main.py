@@ -142,7 +142,7 @@ class SnakeGame:
 
     def end_game(self):
         self.canvas.create_text(WIDTH / 2, HEIGHT / 2, text="Game Over", fill=self.text_color, font=("Arial", 24, "bold"))
-        self.canvas.create_text(WIDTH / 2, HEIGHT / 2 + 30, text="Press any key to restart", fill=self.text_color, font=("Arial", 12, "bold"))
+    
 
     def toggle_mode(self):
         self.is_dark_mode = not self.is_dark_mode
